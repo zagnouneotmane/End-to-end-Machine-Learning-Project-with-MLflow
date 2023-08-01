@@ -39,6 +39,46 @@ conda activate mlfpr
 pip install -r requirements.txt
 ```
 
+```bash
+# Finally run the following command
+python app.py
+```
+
+Now,
+```bash
+open up you local host and port
+```
+
+
+
+## MLflow
+
+[Documentation](https://mlflow.org/docs/latest/index.html)
+
+
+##### cmd
+- mlflow ui
+
+### dagshub
+[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI=https://dagshub.com/zagnouneotmane/End-to-end-Machine-Learning-Project-with-MLflow.mlflow \
+MLFLOW_TRACKING_USERNAME=zagnouneotmane \
+MLFLOW_TRACKING_PASSWORD=418e4a9b103691899c999eb9de764c3c5eb595b2 \
+python script.py
+
+Run this to export as env variables:
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/zagnouneotmane/End-to-end-Machine-Learning-Project-with-MLflow.mlflow
+
+export MLFLOW_TRACKING_USERNAME=zagnouneotmane 
+
+export MLFLOW_TRACKING_PASSWORD=418e4a9b103691899c999eb9de764c3c5eb595b2
+
+```
+
 
 
 
