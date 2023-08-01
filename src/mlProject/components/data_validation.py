@@ -1,10 +1,6 @@
 import os
-import urllib.request as request
-import zipfile
 from mlProject import logger
-from mlProject.utils.common import get_size
 from mlProject.config.configuration import DataValidationConfig
-from pathlib import Path
 import pandas as pd
 
 
